@@ -37,6 +37,7 @@ ionic serve --lab
 Ionic DevAppを使用して実機で確認する場合は下記のコマンドを実行する。  
 `※Windows10では、「Windows Defenderファイアウォール」の「受信の規則」に規則（ポート例：8100）を追加する必要あり。`
 ```
+ionic cordova prepare
 ionic serve --devapp
 ```
 ### アプリビルド（for Android）
