@@ -10,7 +10,7 @@
   <ion-progress-bar *ngIf="loading === true" type="indeterminate"></ion-progress-bar>
 
   <ion-list>
-    <ion-item *ngFor="let item of items">
+    <ion-item *ngFor="let item of items" [routerLink]="'/detail/'+ item.ID" detail>
       <ion-label>
         <h2>{{item.title}}</h2>
         <p>{{item.date}}</p>
