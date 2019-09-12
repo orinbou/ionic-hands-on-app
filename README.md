@@ -75,7 +75,7 @@ Netlifyで公開する場合、下記を実行しておかないとビルドエ�
 npm install --save-dev ionic@5.2.7
 ```
 ※Netlify公開ページは下記URLです。  
-https://silly-colden-00a3e4.netlify.com/home
+https://silly-colden-00a3e4.netlify.com/
 
 ### 参考
 | Webページ | 概要 |
