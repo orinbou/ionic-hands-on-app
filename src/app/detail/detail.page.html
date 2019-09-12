@@ -1,9 +1,16 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>detail</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>記事詳細</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-progress-bar *ngIf="loading === true" type="indeterminate"></ion-progress-bar>
+  <ion-item>
+    <h2>{{title}}</h2>
+  </ion-item>
+  <ion-item>
+    <p>{{date}}</p>
+  </ion-item>
+  <div [innerHTML]="content"></div>
 </ion-content>
