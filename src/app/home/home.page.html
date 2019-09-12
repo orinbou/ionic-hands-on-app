@@ -1,14 +1,20 @@
 <ion-header>
   <ion-toolbar color="primary">
     <ion-title>
-      Ionic Blank
+      {{title}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-progress-bar *ngIf="loading === true" type="indeterminate"></ion-progress-bar>
+
+  <ion-list>
+    <ion-item *ngFor="let item of items" [routerLink]="'/tabs/detail/'+ item.ID" detail>
+      <ion-label>
+        <h2>{{item.title}}</h2>
+        <p>{{item.date}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
