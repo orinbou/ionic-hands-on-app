@@ -14,4 +14,9 @@ export class WordpressService {
   public getPosts(): any {
     return this.http.get(this.mainUrl + 'posts/');
   }
+
+  // 投稿詳細取得
+  public getPost(postId: string): any {
+    return this.http.get(this.mainUrl + 'posts/' + postId);
+  }
 }
