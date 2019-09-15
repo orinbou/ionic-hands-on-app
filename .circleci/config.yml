@@ -11,8 +11,8 @@ jobs:
       - run:
           name: Install node modules
           command: |
-            npm install -g ionic@5.2.7
-            npm install -g cordova@9.0.0
+            npm install -g ionic@5.2.3
+            npm install -g cordova@8.0.0
             npm install
       - run:
           name: Update Android SDK Build-Tools
