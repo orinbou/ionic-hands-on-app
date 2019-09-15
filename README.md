@@ -1,16 +1,19 @@
 # ionic-hands-on-app
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/192c15ad-241e-4d63-809f-db4b92e021ad/deploy-status)](https://app.netlify.com/sites/silly-colden-00a3e4/deploys)
+[![CircleCI](https://circleci.com/gh/orinbou/ionic-hands-on-app/tree/native%2Fcircleci.svg?style=shield)](https://circleci.com/gh/orinbou/ionic-hands-on-app/tree/native%2Fcircleci)
+[![CircleCI](https://circleci.com/gh/orinbou/ionic-hands-on-app/tree/native%2Fcircleci.svg?style=svg)](https://circleci.com/gh/orinbou/ionic-hands-on-app/tree/native%2Fcircleci)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > This is a ionic4 sample project
 
 本サンプルは下記バージョンを使用します。
 ```
 Ionic:
-   ionic (Ionic CLI)  : 5.2.7
+   ionic (Ionic CLI)  : 5.2.3
    Ionic Framework    : @ionic/angular 4.9.0
 Cordova:
-   cordova (Cordova CLI) : 9.0.0 (cordova-lib@9.0.1)
+   cordova (Cordova CLI) : 8.0.0
 ```
 
 ## フロントエンド
@@ -18,8 +21,8 @@ Cordova:
 ### 環境構築
 下記のコマンドを実行する。
 ```
-npm install -g ionic@5.2.7
-npm install -g cordova@9.0.0
+npm install -g ionic@5.2.3
+npm install -g cordova@8.0.0
 ```
 ### バージョン確認
 ```
@@ -73,7 +76,7 @@ ionic start ionic-hands-on-app tabs --type=angular
 ```
 Netlifyで公開する場合、下記を実行しておかないとビルドエラーになるので注意すること！
 ```
-npm install --save-dev ionic@5.2.7
+npm install --save-dev ionic@5.2.3
 ```
 ※Netlify公開ページは下記URLです。  
 https://silly-colden-00a3e4.netlify.com/
