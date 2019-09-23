@@ -1,6 +1,6 @@
 # ionic-hands-on-app
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/192c15ad-241e-4d63-809f-db4b92e021ad/deploy-status)](https://app.netlify.com/sites/silly-colden-00a3e4/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cf3efe6-0a75-431b-a62f-d148ede29149/deploy-status)](https://app.netlify.com/sites/thirsty-goodall-1394e4/deploys)
 
 > This is a ionic4 sample project
 
