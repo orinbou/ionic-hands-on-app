@@ -15,7 +15,7 @@ export class HomePage implements OnInit, OnDestroy {
   constructor(public wordpressService: WordpressService) {
     // for debug log
     console.log('HomePage constructor() was celled!');
-    this.title = '記事一覧';
+    this.title = 'PWA記事一覧';
   }
 
   ngOnInit() {
@@ -23,7 +23,7 @@ export class HomePage implements OnInit, OnDestroy {
     console.log('HomePage ngOnInit() was celled!');
     this.loading = true;
     this.wordpressService.getPosts().subscribe(data => {
-      this.title = '記事一覧（' + data.posts.length + '件）';
+      this.title = 'PWA記事一覧（' + data.posts.length + '件）';
       this.items = data.posts;
       this.loading = false;
     });
